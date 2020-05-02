@@ -1,0 +1,78 @@
+html,
+body {
+  --main-bg-color: #cdcdcd;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-bg-color);
+}
+
+#root {
+  background-color: var(--main-bg-color);
+}
+
+.App {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid #ededed;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  margin-left: 5%;
+  float: left;
+}
+
+.right {
+  margin-right: 5%;
+  float: right;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+table th,
+table td {
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  position: relative;
+}
+table th:last-child,
+table td:last-child {
+  border-right: 0;
+}
+
+table tr:nth-child(odd) {
+  background-color: #ffcfcf;
+}
+
+table tr:nth-child(even) {
+  background-color: #c8ffff;
+}
+
+table tr th {
+  background-color: #ffffff;
+}
+
+table th::before {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+img {
+  height: 5em;
+}
