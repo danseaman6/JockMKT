@@ -1,4 +1,4 @@
-# Jock MKT Take-Home: Commuter Rail Departure Board
+# Jock MKT Take-Home: Event Stocks 
 
 Event stocks listing: 
 * Filterable by player name (fuzzy text)
@@ -8,7 +8,7 @@ Built using https://github.com/danseaman6/barebones-flask-react-app
 Implements React-Table and Match Sorter
 
 ## Run Locally
-1. Clone this repo: `git clone git@github.com:danseaman6/Insurify.git`
+1. Clone this repo: `git clone git@github.com:danseaman6/JockMKT.git`
 2. `npm install`
 3. `npm run dev`
 4. `pip install -r requirements.txt`
